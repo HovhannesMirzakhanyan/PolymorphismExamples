@@ -10,7 +10,7 @@ namespace PolymorphismExamples
     {
         static void Main(string[] args)
         {
-            StaticPolymorphismExample example = new StaticPolymorphismExample();
+            TestData example = new TestData();
             int add1 = example.Add(25,36,98);
             int add2 = example.Add(15, 20);
         }

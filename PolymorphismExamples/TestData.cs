@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PolymorphismExamples
 {
-    class StaticPolymorphismExample
+    class TestData
     {
         public int Add(int a, int b, int c)
         {
