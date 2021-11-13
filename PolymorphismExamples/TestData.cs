@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace PolymorphismExamples
 {
+    /// <summary>
+    /// Static Polymorphism example// Using parameters overloading
+    /// </summary>
     class TestData
     {
         public int Add(int a, int b, int c)
