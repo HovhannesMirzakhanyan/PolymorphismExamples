@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PolymorphismExamples.ExamplesFromMSDN;
 
 namespace PolymorphismExamples
 {
@@ -22,7 +23,20 @@ namespace PolymorphismExamples
             Drawing rectangle = new Rectangle();
             double rectangleArea = rectangle.Area();
 
-        }
+
+            //Drawing various shapes using polymorphism method
+
+            var shapes = new List<Shape>
+            {
+                new Sphere(),
+                new Cube(),
+                new Triangle()
+            };
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
     }
+}
 }
 
