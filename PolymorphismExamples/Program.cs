@@ -36,6 +36,10 @@ namespace PolymorphismExamples
             {
                 shape.Draw();
             }
+
+            // Base keyvord examples
+            Person employee = new Employee();
+            employee.GetInfo();
     }
 }
 }

@@ -21,7 +21,7 @@ namespace PolymorphismExamples.ExamplesFromMSDN
             Console.WriteLine("Performing base class drawing tasks");
         }
     }
-    public class Triangle:Shape
+    public class Triangle : Shape
     {
         public override void Draw()
         {
