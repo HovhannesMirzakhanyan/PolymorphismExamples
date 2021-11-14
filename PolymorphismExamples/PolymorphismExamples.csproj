@@ -46,7 +46,7 @@
     <Compile Include="Drawing.cs" />
     <Compile Include="ExamplesFromMSDN\Person.cs" />
     <Compile Include="ExamplesFromMSDN\Shape.cs" />
-    <Compile Include="ExamplesFromMSDN\TestClass.cs" />
+    <Compile Include="ExamplesFromMSDN\Figure.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestData.cs" />

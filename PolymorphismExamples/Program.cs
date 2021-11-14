@@ -40,7 +40,20 @@ namespace PolymorphismExamples
             // Base keyvord examples
             Person employee = new Employee();
             employee.GetInfo();
+
+            //Virtual modifier example 
+            double r = 3.0, h = 5.0;
+            var figurs = new List<Figure>
+            {
+                new Circle1("Circle",r),
+                new Pyramid("Pyramid",r),
+                new Cylinder("Cylinder",r, h)
+            };
+            foreach (var item in figurs)
+            {
+                Console.WriteLine($"The {item._name} area is {item.Area()}");
+            }
+        }
     }
-}
 }
 
